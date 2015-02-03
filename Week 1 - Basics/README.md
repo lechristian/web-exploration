@@ -1,4 +1,17 @@
+# Explore
+```
+- Much practice
+- Find 3 ways to vertically align an element inside another element
+- Recreate _______ (more details to come).
+- Make something random and cool.
+(Inspiration: http://cssaz.tumblr.com/)
+```
+
 # Resources and references
+
+### Git:
+- https://try.github.io/levels/1/challenges/1 (Fun and cute)
+- http://git-scm.com/book/en/v2/Getting-Started-Git-Basics (Doc)
 
 ### HTML:
 - http://www.w3schools.com/html/
