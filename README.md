@@ -11,7 +11,8 @@ Innovative Design's Web Exploration Tier
 - Much practice
 - Find 3 ways to vertically align an element inside another element
 - Recreate _______ (more details to come).
-- Make something random and cool. (Inspiration: http://cssaz.tumblr.com/)
+- Make something random and cool.
+(Inspiration: http://cssaz.tumblr.com/)
 ```
 
 ### Web Design Theory
@@ -27,7 +28,8 @@ Innovative Design's Web Exploration Tier
 ```
 Research Angular.js and React.js
 
-Depending on arguments and interests, we'll be picking one of these Frameworks to work on in about 2 weeks
+Depending on arguments and interests, we'll be picking one of
+these Frameworks to work on in about 2 weeks
 ```
 
 ### More Javascript
