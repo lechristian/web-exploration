@@ -18,6 +18,7 @@
 - https://developer.mozilla.org/en-US/docs/Web/HTML
 
 ### CSS:
+- http://tympanus.net/codrops/css_reference/ (Visually appealing)
 - http://www.w3schools.com/css/
 - https://developer.mozilla.org/en-US/docs/Web/CSS
 
