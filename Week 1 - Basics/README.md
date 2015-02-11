@@ -31,5 +31,44 @@
 ### Me:
 - Only after asking Google and your fellow tier members.
 
+# Download/Install
+
+### Homebrew (mac)
+- http://brew.sh/
+
+### Node.js
+- Mac: `brew install node`
+- Windows: http://nodejs.org/download/
+
+### Bower
+- Mac: `sudo npm install -g bower`
+- Windows: https://www.npmjs.com/package/bower
+
+### Useful sublime things
+```
+There's VIM counterparts, I just don't happen to know VIM well enough
+```
+- Sublime Package Manager
+    + https://packagecontrol.io/installation
+- Emmet
+    + In sublime: `cmd/win + shift + p`
+    + Search `install`
+    + Choose `Package Control: Install Package`
+    + Search `Emmet` (ex-zen coding for sublime)
+    + Install
+- Sass
+    + In sublime: `cmd/win + shift + p`
+    + Search `install`
+    + Choose `Package Control: Install Package`
+    + Search `Sass` (Sass support for TextMate & Sublime Text (2 & 3))
+    + Install
+- FakeImg
+    + In sublime: `cmd/win + shift + p`
+    + Search `install`
+    + Choose `Package Control: Install Package`
+    + Search `FakeImg Image Placeholder Snippet`
+    + Install 
+
+
 
 
