@@ -1,0 +1,25 @@
+{
+    "name": "boilerplate",
+    "version": "1.0.0",
+    "main": "server.js",
+    "dependencies": {
+        "express": "latest"
+    },
+    "devDependencies": {
+        "gulp": "latest",
+        "gulp-autoprefixer": "latest",
+        "gulp-concat": "latest",
+        "gulp-minify-css": "latest",
+        "gulp-nodemon": "latest",
+        "gulp-notify": "latest",
+        "gulp-plumber": "latest",
+        "gulp-rename": "latest",
+        "gulp-sass": "latest",
+        "gulp-sourcemaps": "latest",
+        "gulp-util": "latest"
+    },
+    "private": true,
+    "engines": {
+        "node": "0.10.33"
+    }
+}

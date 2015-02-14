@@ -1,0 +1,17 @@
+.example-container {
+    height: 100%;
+    width: 100%;
+    background: $blue;
+
+    .example {
+        @include vertical-align();
+        @include font-size(40px);
+        width: 100%;
+        padding: calculateRem(80px) 0;
+        background: $white;
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        color: $blue;
+    }
+}

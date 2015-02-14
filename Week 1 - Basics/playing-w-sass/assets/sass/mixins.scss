@@ -1,0 +1,106 @@
+// SCSS Mixins
+
+/* REM Calculator
+========================================================================== */
+
+@function calculateRem($size) {
+    $remSize: $size / 16px;
+    @return #{$remSize}rem;
+}
+
+@mixin font-size($size) {
+    font-size: $size;
+    font-size: calculateRem($size);
+}
+
+@mixin line-height($size) {
+    line-height: $size;
+    line-height: calculateRem($size);
+}
+
+/* Transform
+========================================================================== */
+
+@mixin transform($transform...) {
+    -webkit-transform: $transform;
+    -moz-transform: $transform;
+    -ms-transform: $transform;
+    transform: $transform;
+}
+
+/* Vertical Align
+========================================================================== */
+
+@mixin vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+@mixin undo-vertical-align {
+    position: relative;
+    top: 0;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+}
+
+/* Border Radius
+========================================================================== */
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    border-radius: $radius;
+    background-clip: padding-box;
+}
+
+/* Box Model
+========================================================================== */
+
+@mixin box-sizing($box-model) {
+    -webkit-box-sizing: $box-model; // Safari <= 5
+    -moz-box-sizing: $box-model; // Firefox <= 19
+    box-sizing: $box-model;
+}
+
+/*  Box Shadow
+========================================================================== */
+
+@mixin box-shadow($top, $left, $blur, $spread, $color, $inset: false) {
+    @if $inset {
+        -webkit-box-shadow:inset $top $left $blur $spread $color;
+        -moz-box-shadow:inset $top $left $blur $spread $color;
+        -ms-box-shadow:inset $top $left $blur $spread $color;
+        -o-box-shadow:inset $top $left $blur $spread $color;
+        box-shadow:inset $top $left $blur $spread $color;
+    } @else {
+        -webkit-box-shadow: $top $left $blur $spread $color;
+        -moz-box-shadow: $top $left $blur $spread $color;
+        -ms-box-shadow: $top $left $blur $spread $color;
+        -o-box-shadow: $top $left $blur $spread $color;
+        box-shadow: $top $left $blur $spread $color;
+    }
+}
+
+/* Clearfix
+========================================================================== */
+
+@mixin clearfix() {
+    & {
+        *zoom: 1;
+    }
+
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+}
