@@ -30,9 +30,14 @@
 4. Should be ready now. Go to your browser and go to `http://localhost:8000`
 
 ```
-You'll get an error beep notification from your terminal and a beep whenever your compilation fails. I also included a pretty print of the error and where you can find it for your convenience. It'll show in your terminal.
+You'll get an error beep notification from your terminal and a beep whenever
+your compilation fails. I also included a pretty print of the error and where
+you can find it for your convenience. It'll show in your terminal.
 
-If the compile is successful you'll get a notificaiton saying it succeeded. If you don't want this notification, go into `./gulpfile.js` and remove lines 51-53 (add a semicolon to the end of line 50 `.pipe(gulp.dest('./public/css'));`):
+If the compile is successful you'll get a notificaiton saying it succeeded.
+If you don't want this notification, go into `./gulpfile.js` and remove lines
+51-53 (add a semicolon to the end of line 50
+`.pipe(gulp.dest('./public/css'));`):
 
 .pipe(notify({
     message: 'Successfully compiled sass.'
@@ -45,8 +50,11 @@ If the compile is successful you'll get a notificaiton saying it succeeded. If y
 - If you create more HTML pages/files, make sure you import the css file. `<link rel="stylesheet" type="text/css" href="css/style.min.css">` Example in `./public/index.html`
 
 ```
-One caveat of this set up is that you only have 1 css file. Your styles sit in `./public/css/`. So if you have more than 1 page, make sure you set page wrappper or container classes. I can explain this better if you don't get it.
+One caveat of this set up is that you only have 1 css file. Your styles sit in
+`./public/css/`. So if you have more than 1 page, make sure you set page
+wrappper or container classes. I can explain this better if you don't get it.
 
-This is a little weird right now but when we start doing SPA and javascript stuff it'll make more sense.
+This is a little weird right now but when we start doing SPA and javascript
+stuff it'll make more sense.
 ```
 
