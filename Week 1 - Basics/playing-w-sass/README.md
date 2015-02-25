@@ -19,13 +19,13 @@
 - Windows: https://www.npmjs.com/package/bower
 
 ### Gulp
-- `npm install --global gulp`
+- `npm install -g gulp`
 
 ## Usage
 #### Yay sass time
 
-1. Run `npm install`, you might have to run `sudo npm install` if you're on mac
-2. In your terminal `cd` into your project folder
+1. In your terminal `cd` into your project folder
+2. Run `npm install`, you might have to run `sudo npm install` if you're on mac
 3. Run `gulp` in terminal
 4. Should be ready now. Go to your browser and go to `http://localhost:8000`
 
