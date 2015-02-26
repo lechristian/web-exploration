@@ -9,6 +9,9 @@ Do a pull of the web-exploration folder if you have git set up, if not download 
 
 Copy the `week2hw` into another folder, cd into the folder, and run git init.
 
+#### To get you more practice with HTML and CSS, you'll be recreating this
+#### https://webexp-hw2.herokuapp.com
+
 I included the pictures I used in `./public/img/members`.
 
 You'll be working in `./assets/sass/style.scss` for all your css stylings.
