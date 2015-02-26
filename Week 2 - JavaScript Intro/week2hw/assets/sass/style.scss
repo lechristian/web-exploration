@@ -1,0 +1,112 @@
+.nav {
+    @include box-shadow(0px, 0px, 4px, 1px, #dddddd);
+    position: fixed;
+    height: 64px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0px 40px;
+    background: #ffffff;
+    z-index: 2;
+
+    .logo {
+        display: inline-block;
+        font-size: 24px;
+        line-height: 64px;
+        font-family: Helvetica, Arial, sans-serif;
+        padding-right: 30px;
+    }
+
+    .links {
+        display: inline-block;
+        color: #333333;
+
+        .link {
+            padding: 0 10px;
+            line-height: 64px;
+            display: inline-block;
+            color: #777777;
+            cursor: pointer;
+            transition: color 0.25s;
+
+            &:hover {
+                color: #333333;
+            }
+        }
+    }
+}
+
+.about-container {
+    position: relative;
+    padding: 100px;
+    margin-top: 64px;
+    z-index: 1;
+
+    .line {
+        font-size: 40px;
+        line-height: 60px;
+        font-family: Helvetica, Arial, sans-serif;
+        color: #999999;
+    }
+
+    .web {
+        font-size: 30px;
+        line-height: 140px;
+        font-family: Helvetica, Arial, sans-serif;
+        color: #777777;
+        text-align: center;
+    }
+
+    .desc {
+        font-size: 20px;
+        line-height: 28px;
+        font-family: Helvetica, Arial, sans-serif;
+        color: #777777;
+    }
+}
+
+.picture-container {
+    @include clearfix();
+    position: relative;
+    padding: 100px;
+    z-index: 1;
+
+    .img-wrapper {
+        float: left;
+        width: 50%;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.member-container {
+    @include clearfix();
+    position: relative;
+    padding: 100px;
+    z-index: 1;
+
+    .float-wrapper {
+        float: left;
+        width: 50%;
+
+        .member-wrapper {
+            margin: 0 auto;
+            width: 75%;
+            border-radius: 50%;
+            margin-bottom: 100px;
+            opacity: 0.6;
+            transition: opacity 0.25s;
+
+            img {
+                width: 100%;
+                border-radius: 50%;
+            }
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}
