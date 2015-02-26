@@ -1,0 +1,22 @@
+// Base
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+html {
+    position: relative;
+    height: 100%;
+    z-index: 1;
+}
+
+body {
+    position: relative;
+    z-index: 1;
+}
