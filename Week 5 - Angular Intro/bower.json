@@ -1,0 +1,8 @@
+{
+    "name": "angularintro",
+    "version": "1.0.0",
+    "dependencies": {
+        "angular": "1.3.x",
+        "angular-touch": "latest"
+    }
+}
