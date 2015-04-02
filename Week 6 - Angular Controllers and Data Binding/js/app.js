@@ -1,14 +1,15 @@
 var app = angular.module('appName', ['ngTouch']);
 
 app.controller('MainCtrl', ['$scope', function($scope) {
-    $scope.logForm = function() {
-        var info = {
-            first: $scope.first,
-            last: $scope.last,
-            email: $scope.email,
-            num: $scope.num
-        };
+    $scope.color = "green";
 
-        console.log(info);
+    $scope.visible = false;
+
+    $scope.hide = function() {
+        $scope.visible = true;
+    };
+
+    $scope.show = function() {
+        $scope.visible = false;
     };
 }]);

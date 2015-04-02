@@ -17,19 +17,20 @@
     </head>
     <body data-ng-app="appName">
         <div data-ng-controller="MainCtrl">
-            <label for="first">First Name</label>
-            <input id="first" type="text" data-ng-model="first">
+            <input type="text" data-ng-model="bg">
+            <input type="text" data-ng-model="text">
             <br><br>
-            <label for="last">Last Name</label>
-            <input id="last" type="text" data-ng-model="last">
+            <div data-ng-style="{background: bg, color: text}">
+                lakjsdf;lakjsdf;lakjdf;lskajf
+            </div>
             <br><br>
-            <label for="email">Email</label>
-            <input id="email" type="text" data-ng-model="email">
-            <br><br>
-            <label for="num">Number</label>
-            <input id="num" type="text" data-ng-model="num">
-            <br><br>
-            <div data-ng-click="logForm()">Save</div>
+            <div data-ng-hide="visible" data-ng-click="hide()">
+                {{color}}
+            </div>
+
+            <div data-ng-click="show()">
+                Show
+            </div>
         </div>
     </body>
 </html>
