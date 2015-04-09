@@ -1,0 +1,9 @@
+<div class="home-page" data-ng-controller="HomeCtrl">
+    <div data-ng-repeat="age in ages track by $index">
+        {{ age }}
+    </div>
+    <br><br>
+    <input type="number" data-ng-model="num">
+    <br><br>
+    <div data-ng-click="addAge()">Add</div>
+</div>
