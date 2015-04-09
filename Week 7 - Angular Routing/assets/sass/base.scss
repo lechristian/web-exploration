@@ -1,0 +1,28 @@
+// Base
+
+*,
+*:after,
+*:before {
+    @include box-sizing(border-box);
+    @include font-text();
+    position: relative;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+html {
+    @include font-text();
+    position: relative;
+    height: 100%;
+    z-index: 1;
+    background: #ffffff;
+}
+
+body {
+    @include font-text();
+    position: relative;
+    height: calc(100% - 64px);
+    z-index: 1;
+    background: #ffffff;
+}

@@ -1,0 +1,14 @@
+{
+    "name": "outcomes",
+    "version": "0.0.1",
+    "dependencies": {
+        "angular": "1.3.x",
+        "angular-fluidVid": "latest",
+        "angular-touch": "latest",
+        "angular-ui-router": "0.2.x",
+        "jeet": "latest",
+        "n3-line-chart": "latest",
+        "ngmap": "latest",
+        "satellizer": "0.9.x"
+    }
+}
