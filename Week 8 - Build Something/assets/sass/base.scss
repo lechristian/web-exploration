@@ -1,0 +1,36 @@
+// Base
+
+*,
+*:after,
+*:before {
+    @include box-sizing(border-box);
+    @include txt-sm();
+    position: relative;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+html {
+    @include txt-sm();
+    position: relative;
+    height: 100%;
+    z-index: 1;
+    background: #ffffff;
+}
+
+body {
+    @include txt-sm();
+    position: relative;
+    height: 100%;
+    z-index: 1;
+    background: #ffffff;
+}
+
+input,
+textarea,
+input:focus,
+textarea:focus {
+    border: 1px solid #cccccc;
+    outline: none;
+}
